@@ -2,12 +2,13 @@
 TR:
 Bu kod parçası , her resim için imageFov() adlı bir fonksiyonu çağırarak resmin üzerine iki eksen çizgisi ve sıfır koordinatını gösteren bir metin çizmektedir. Bu kod parçası ayrıca tüm resimlerdeki objeleri teker teker dolaşıp her resimdeki objenin koordinatlarına bir çizgi çizer.
 
-Calcdif() fonksiyonunu açı değişimini hesaplamak için kullanabilirsiniz.
+Calcdif() fonksiyonunu objelerin önceki konumlarınının koordinatlarını tespit etmek ve trigonometrik işlemler ile açı değişimini hesaplar.
 
 iterasyon() fonksiyonu resimdeki objelere ulaşmayı kolaylaştırır.
 
 Bu kod parçasındaki amaç 5'er metre aralıklarla çekilen görüntülerdeki objelerin bir önceki konumdaki objenin koordinatları ve bir sonraki konumdaki objenin koordinatlarını kullanarak açı değişimini hesaplayıp bir sonraki konumda objenin açı değişimine göre konumunu tahmin etmektir.
 
+NOT : Açı değişimleri hesaplandıktan sonra görüntülerin üzerine yazdırılmış olan sonuçlar 'results' dosyası içinde yer almaktadır.
 
 EN:
 This piece of code calls a function called imageFov() for each image and draws text on the image showing the two axis lines and the zero coordinate. This piece of code also traverses the objects in all the images one by one and draws a line to the coordinates of the object in each image.
